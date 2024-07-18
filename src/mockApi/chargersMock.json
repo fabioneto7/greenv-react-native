@@ -1,0 +1,403 @@
+[
+  {
+    "name": "Carregador 1",
+    "id": "CHG001",
+    "address": "Manaus, AM, Brasil",
+    "latitude": -3.1267,
+    "longitude": -60.0127,
+    "availability": "busy"
+  },
+  {
+    "name": "Carregador 2",
+    "id": "CHG002",
+    "address": "Curitiba, PR, Brasil",
+    "latitude": -25.4286,
+    "longitude": -49.2721,
+    "availability": "available"
+  },
+  {
+    "name": "Carregador 3",
+    "id": "CHG003",
+    "address": "Manaus, AM, Brasil",
+    "latitude": -3.1282,
+    "longitude": -60.0282,
+    "availability": "busy"
+  },
+  {
+    "name": "Carregador 4",
+    "id": "CHG004",
+    "address": "Manaus, AM, Brasil",
+    "latitude": -3.1246,
+    "longitude": -60.0219,
+    "availability": "busy"
+  },
+  {
+    "name": "Carregador 5",
+    "id": "CHG005",
+    "address": "Salvador, BA, Brasil",
+    "latitude": -12.9829,
+    "longitude": -38.5063,
+    "availability": "busy"
+  },
+  {
+    "name": "Carregador 6",
+    "id": "CHG006",
+    "address": "Manaus, AM, Brasil",
+    "latitude": -3.1259,
+    "longitude": -60.0120,
+    "availability": "busy"
+  },
+  {
+    "name": "Carregador 7",
+    "id": "CHG007",
+    "address": "Fortaleza, CE, Brasil",
+    "latitude": -3.7137,
+    "longitude": -38.5434,
+    "availability": "busy"
+  },
+  {
+    "name": "Carregador 8",
+    "id": "CHG008",
+    "address": "Brasília, DF, Brasil",
+    "latitude": -15.7908,
+    "longitude": -47.8753,
+    "availability": "busy"
+  },
+  {
+    "name": "Carregador 9",
+    "id": "CHG009",
+    "address": "Salvador, BA, Brasil",
+    "latitude": -12.9739,
+    "longitude": -38.4955,
+    "availability": "available"
+  },
+  {
+    "name": "Carregador 10",
+    "id": "CHG010",
+    "address": "Curitiba, PR, Brasil",
+    "latitude": -25.4250,
+    "longitude": -49.2671,
+    "availability": "available"
+  },
+  {
+    "name": "Carregador 11",
+    "id": "CHG011",
+    "address": "São Paulo, SP, Brasil",
+    "latitude": -23.5539,
+    "longitude": -46.6367,
+    "availability": "busy"
+  },
+  {
+    "name": "Carregador 12",
+    "id": "CHG012",
+    "address": "Fortaleza, CE, Brasil",
+    "latitude": -3.7132,
+    "longitude": -38.5344,
+    "availability": "available"
+  },
+  {
+    "name": "Carregador 13",
+    "id": "CHG013",
+    "address": "Porto Alegre, RS, Brasil",
+    "latitude": -30.0267,
+    "longitude": -51.2250,
+    "availability": "available"
+  },
+  {
+    "name": "Carregador 14",
+    "id": "CHG014",
+    "address": "Recife, PE, Brasil",
+    "latitude": -8.0496,
+    "longitude": -34.8858,
+    "availability": "available"
+  },
+  {
+    "name": "Carregador 15",
+    "id": "CHG015",
+    "address": "Belo Horizonte, MG, Brasil",
+    "latitude": -19.9184,
+    "longitude": -43.9257,
+    "availability": "busy"
+  },
+  {
+    "name": "Carregador 16",
+    "id": "CHG016",
+    "address": "Curitiba, PR, Brasil",
+    "latitude": -25.4286,
+    "longitude": -49.2832,
+    "availability": "available"
+  },
+  {
+    "name": "Carregador 17",
+    "id": "CHG017",
+    "address": "Salvador, BA, Brasil",
+    "latitude": -12.9701,
+    "longitude": -38.5027,
+    "availability": "busy"
+  },
+  {
+    "name": "Carregador 18",
+    "id": "CHG018",
+    "address": "Manaus, AM, Brasil",
+    "latitude": -3.1160,
+    "longitude": -60.0288,
+    "availability": "available"
+  },
+  {
+    "name": "Carregador 19",
+    "id": "CHG019",
+    "address": "Porto Alegre, RS, Brasil",
+    "latitude": -30.0348,
+    "longitude": -51.2234,
+    "availability": "busy"
+  },
+  {
+    "name": "Carregador 20",
+    "id": "CHG020",
+    "address": "Rio de Janeiro, RJ, Brasil",
+    "latitude": -22.9010,
+    "longitude": -43.1705,
+    "availability": "busy"
+  },
+  {
+    "name": "Carregador 21",
+    "id": "CHG021",
+    "address": "Fortaleza, CE, Brasil",
+    "latitude": -3.7081,
+    "longitude": -38.5429,
+    "availability": "busy"
+  },
+  {
+    "name": "Carregador 22",
+    "id": "CHG022",
+    "address": "Rio de Janeiro, RJ, Brasil",
+    "latitude": -22.9043,
+    "longitude": -43.1809,
+    "availability": "busy"
+  },
+  {
+    "name": "Carregador 23",
+    "id": "CHG023",
+    "address": "Recife, PE, Brasil",
+    "latitude": -8.0507,
+    "longitude": -34.8829,
+    "availability": "busy"
+  },
+  {
+    "name": "Carregador 24",
+    "id": "CHG024",
+    "address": "Fortaleza, CE, Brasil",
+    "latitude": -3.7197,
+    "longitude": -38.5416,
+    "availability": "available"
+  },
+  {
+    "name": "Carregador 25",
+    "id": "CHG025",
+    "address": "Fortaleza, CE, Brasil",
+    "latitude": -3.7241,
+    "longitude": -38.5374,
+    "availability": "available"
+  },
+  {
+    "name": "Carregador 26",
+    "id": "CHG026",
+    "address": "Rio de Janeiro, RJ, Brasil",
+    "latitude": -22.8978,
+    "longitude": -43.1742,
+    "availability": "busy"
+  },
+  {
+    "name": "Carregador 27",
+    "id": "CHG027",
+    "address": "Porto Alegre, RS, Brasil",
+    "latitude": -30.0271,
+    "longitude": -51.2080,
+    "availability": "available"
+  },
+  {
+    "name": "Carregador 28",
+    "id": "CHG028",
+    "address": "Salvador, BA, Brasil",
+    "latitude": -12.9707,
+    "longitude": -38.4984,
+    "availability": "available"
+  },
+  {
+    "name": "Carregador 29",
+    "id": "CHG029",
+    "address": "São Paulo, SP, Brasil",
+    "latitude": -23.5436,
+    "longitude": -46.6324,
+    "availability": "busy"
+  },
+  {
+    "name": "Carregador 30",
+    "id": "CHG030",
+    "address": "Rio de Janeiro, RJ, Brasil",
+    "latitude": -22.9028,
+    "longitude": -43.1816,
+    "availability": "busy"
+  },
+  {
+    "name": "Carregador 31",
+    "id": "CHG031",
+    "address": "Porto Alegre, RS, Brasil",
+    "latitude": -30.0365,
+    "longitude": -51.2091,
+    "availability": "available"
+  },
+  {
+    "name": "Carregador 32",
+    "id": "CHG032",
+    "address": "Manaus, AM, Brasil",
+    "latitude": -3.1140,
+    "longitude": -60.0208,
+    "availability": "available"
+  },
+  {
+    "name": "Carregador 33",
+    "id": "CHG033",
+    "address": "Porto Alegre, RS, Brasil",
+    "latitude": -30.0410,
+    "longitude": -51.2157,
+    "availability": "available"
+  },
+  {
+    "name": "Carregador 34",
+    "id": "CHG034",
+    "address": "Brasília, DF, Brasil",
+    "latitude": -15.7951,
+    "longitude": -47.8904,
+    "availability": "busy"
+  },
+  {
+    "name": "Carregador 35",
+    "id": "CHG035",
+    "address": "Curitiba, PR, Brasil",
+    "latitude": -25.4353,
+    "longitude": -49.2691,
+    "availability": "busy"
+  },
+  {
+    "name": "Carregador 36",
+    "id": "CHG036",
+    "address": "Rio de Janeiro, RJ, Brasil",
+    "latitude": -22.9090,
+    "longitude": -43.1671,
+    "availability": "busy"
+  },
+  {
+    "name": "Carregador 37",
+    "id": "CHG037",
+    "address": "Porto Alegre, RS, Brasil",
+    "latitude": -30.0329,
+    "longitude": -51.2160,
+    "availability": "busy"
+  },
+  {
+    "name": "Carregador 38",
+    "id": "CHG038",
+    "address": "Rio de Janeiro, RJ, Brasil",
+    "latitude": -22.8973,
+    "longitude": -43.1673,
+    "availability": "available"
+  },
+  {
+    "name": "Carregador 39",
+    "id": "CHG039",
+    "address": "Recife, PE, Brasil",
+    "latitude": -8.0559,
+    "longitude": -34.8724,
+    "availability": "busy"
+  },
+  {
+    "name": "Carregador 40",
+    "id": "CHG040",
+    "address": "Porto Alegre, RS, Brasil",
+    "latitude": -30.0284,
+    "longitude": -51.2092,
+    "availability": "available"
+  },
+  {
+    "name": "Carregador 41",
+    "id": "CHG041",
+    "address": "Belo Horizonte, MG, Brasil",
+    "latitude": -19.9076,
+    "longitude": -43.9263,
+    "availability": "busy"
+  },
+  {
+    "name": "Carregador 42",
+    "id": "CHG042",
+    "address": "Belo Horizonte, MG, Brasil",
+    "latitude": -19.9094,
+    "longitude": -43.9263,
+    "availability": "available"
+  },
+  {
+    "name": "Carregador 43",
+    "id": "CHG043",
+    "address": "Curitiba, PR, Brasil",
+    "latitude": -25.4309,
+    "longitude": -49.2817,
+    "availability": "busy"
+  },
+  {
+    "name": "Carregador 44",
+    "id": "CHG044",
+    "address": "Rio de Janeiro, RJ, Brasil",
+    "latitude": -22.9013,
+    "longitude": -43.1735,
+    "availability": "busy"
+  },
+  {
+    "name": "Carregador 45",
+    "id": "CHG045",
+    "address": "Curitiba, PR, Brasil",
+    "latitude": -25.4355,
+    "longitude": -49.2750,
+    "availability": "available"
+  },
+  {
+    "name": "Carregador 46",
+    "id": "CHG046",
+    "address": "Recife, PE, Brasil",
+    "latitude": -8.0487,
+    "longitude": -34.8715,
+    "availability": "available"
+  },
+  {
+    "name": "Carregador 47",
+    "id": "CHG047",
+    "address": "Manaus, AM, Brasil",
+    "latitude": -3.1258,
+    "longitude": -60.0259,
+    "availability": "available"
+  },
+  {
+    "name": "Carregador 48",
+    "id": "CHG048",
+    "address": "Belo Horizonte, MG, Brasil",
+    "latitude": -19.9188,
+    "longitude": -43.9346,
+    "availability": "available"
+  },
+  {
+    "name": "Carregador 49",
+    "id": "CHG049",
+    "address": "Porto Alegre, RS, Brasil",
+    "latitude": -30.0444,
+    "longitude": -51.2094,
+    "availability": "busy"
+  },
+  {
+    "name": "Carregador 50",
+    "id": "CHG050",
+    "address": "Curitiba, PR, Brasil",
+    "latitude": -25.4358,
+    "longitude": -49.2829,
+    "availability": "busy"
+  }
+]
+  
