@@ -1,11 +1,12 @@
 import React, { useEffect, useRef, useState } from 'react'
-import { View, Text, StyleSheet, TouchableOpacity, Image, Dimensions, PermissionsAndroid, ScrollView } from 'react-native'
+import { View, Text, StyleSheet, TouchableOpacity, Image, Dimensions, PermissionsAndroid, ScrollView, Platform } from 'react-native'
 import Geolocation from '@react-native-community/geolocation'
 import { RouteProp } from '@react-navigation/native'
 import { getDistance } from 'geolib'
 import { RootStackParamList } from '../../../types/typesRoute'
 import { fetchRandomImage } from '../../../mockApi/mockApiImage'
 import { StackNavigationProp } from '@react-navigation/stack'
+import { request, PERMISSIONS, RESULTS } from 'react-native-permissions'
 
 const { width } = Dimensions.get('window')
 
@@ -31,24 +32,37 @@ const ChargerDetails: React.FC<Props> = ({ route, navigation }) => {
 
   useEffect(() => {
     const requestLocationPermission = async () => {
-      try {
-        const granted = await PermissionsAndroid.request(
-          PermissionsAndroid.PERMISSIONS.ACCESS_FINE_LOCATION,
-          {
-            title: 'Permissão de Localização',
-            message: 'Este aplicativo precisa acessar sua localização.',
-            buttonNeutral: 'Perguntar depois',
-            buttonNegative: 'Cancelar',
-            buttonPositive: 'OK'
+      if (Platform.OS === 'android') {
+        try {
+          const granted = await PermissionsAndroid.request(
+            PermissionsAndroid.PERMISSIONS.ACCESS_FINE_LOCATION,
+            {
+              title: 'Permissão de Localização',
+              message: 'Este aplicativo precisa acessar sua localização.',
+              buttonNeutral: 'Perguntar depois',
+              buttonNegative: 'Cancelar',
+              buttonPositive: 'OK'
+            }
+          )
+          if (granted === PermissionsAndroid.RESULTS.GRANTED) {
+            setPermissionGranted(true)
+          } else {
+            console.warn('Permissão de localização negada')
           }
-        )
-        if (granted === PermissionsAndroid.RESULTS.GRANTED) {
-          setPermissionGranted(true)
-        } else {
-          console.warn('Permissão de localização negada')
+        } catch (err) {
+          console.warn(err)
         }
-      } catch (err) {
-        console.warn(err)
+      } else if (Platform.OS === 'ios') {
+        try {
+          const result = await request(PERMISSIONS.IOS.LOCATION_WHEN_IN_USE);
+        if (result === RESULTS.GRANTED) {
+          setPermissionGranted(true);
+        } else {
+          console.warn('Permissão de localização negada');
+        }
+        } catch (err) {
+          console.warn(err);
+        }
       }
     }
 

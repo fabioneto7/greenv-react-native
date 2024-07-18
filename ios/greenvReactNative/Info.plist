@@ -52,6 +52,8 @@
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Need your location to find nearby chargers</string>
+	<string>We need access to your location to show your position on the map</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>We need access to your location to provide navigation even when the app is in the background</string>
 </dict>
 </plist>
